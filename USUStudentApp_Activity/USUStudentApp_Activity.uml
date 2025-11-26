@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_I69zYMrOEfC73LMk7LRVfA" name="USUStudentApp_Activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_I9jNUMrOEfC73LMk7LRVfA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_KALH8MrOEfC73LMk7LRVfA" name="USU Student App - Register to Union Use Case" node="_eV840MrPEfC73LMk7LRVfA _iJk7cMrPEfC73LMk7LRVfA _4vAQMMrPEfC73LMk7LRVfA _7mASgMrPEfC73LMk7LRVfA _jAgG8MrQEfC73LMk7LRVfA _5PU5kMrQEfC73LMk7LRVfA _I2xIgMrREfC73LMk7LRVfA _iXUKkMrREfC73LMk7LRVfA _87hpEMrREfC73LMk7LRVfA _Uwt8kMrSEfC73LMk7LRVfA _zJIFcMrSEfC73LMk7LRVfA" group="_fMlbUMrOEfC73LMk7LRVfA _CgLEwMrPEfC73LMk7LRVfA">
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Nk9ycMrQEfC73LMk7LRVfA" target="_4vAQMMrPEfC73LMk7LRVfA" source="_7mASgMrPEfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_NlD5EMrQEfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_NlD5EcrQEfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_dyHWgMrQEfC73LMk7LRVfA" inPartition="_fMlbUMrOEfC73LMk7LRVfA" target="_7mASgMrPEfC73LMk7LRVfA" source="_iJk7cMrPEfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_dyOEMMrQEfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_dyOEMcrQEfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oXmugMrQEfC73LMk7LRVfA" target="_iJk7cMrPEfC73LMk7LRVfA" source="_eV840MrPEfC73LMk7LRVfA"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_wM7sAMrQEfC73LMk7LRVfA" target="_jAgG8MrQEfC73LMk7LRVfA" source="_4vAQMMrPEfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_wNBLkMrQEfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_wNBLkcrQEfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Q1TsYMrREfC73LMk7LRVfA" target="_5PU5kMrQEfC73LMk7LRVfA" source="_jAgG8MrQEfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Q1Yk4MrREfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Q1Yk4crREfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_UTpbgMrREfC73LMk7LRVfA" target="_I2xIgMrREfC73LMk7LRVfA" source="_5PU5kMrQEfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_UTwJMMrREfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_UTwJMcrREfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_nymHgMrREfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA" target="_iXUKkMrREfC73LMk7LRVfA" source="_I2xIgMrREfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_nys1MMrREfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_nys1McrREfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_I0Z7kMrSEfC73LMk7LRVfA" name="[valid]" inPartition="_CgLEwMrPEfC73LMk7LRVfA" target="_87hpEMrREfC73LMk7LRVfA" source="_iXUKkMrREfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_I0gCMMrSEfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_I0gCMcrSEfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_W_b24MrSEfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA" target="_Uwt8kMrSEfC73LMk7LRVfA" source="_87hpEMrREfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_W_ikkMrSEfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_W_ikkcrSEfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_2_xm4MrSEfC73LMk7LRVfA" name="[invalid]" inPartition="_CgLEwMrPEfC73LMk7LRVfA" target="_zJIFcMrSEfC73LMk7LRVfA" source="_iXUKkMrREfC73LMk7LRVfA">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_2_4UkMrSEfC73LMk7LRVfA" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_2_4UkcrSEfC73LMk7LRVfA" value="1"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_fMlbUMrOEfC73LMk7LRVfA" name="Student" node="_iJk7cMrPEfC73LMk7LRVfA _7mASgMrPEfC73LMk7LRVfA _jAgG8MrQEfC73LMk7LRVfA" edge="_dyHWgMrQEfC73LMk7LRVfA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_CgLEwMrPEfC73LMk7LRVfA" name="USU Student App" node="_4vAQMMrPEfC73LMk7LRVfA _I2xIgMrREfC73LMk7LRVfA _iXUKkMrREfC73LMk7LRVfA _87hpEMrREfC73LMk7LRVfA _Uwt8kMrSEfC73LMk7LRVfA _zJIFcMrSEfC73LMk7LRVfA" edge="_nymHgMrREfC73LMk7LRVfA _I0Z7kMrSEfC73LMk7LRVfA _W_b24MrSEfC73LMk7LRVfA _2_xm4MrSEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_eV840MrPEfC73LMk7LRVfA" name="" outgoing="_oXmugMrQEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_iJk7cMrPEfC73LMk7LRVfA" name="Open Student App" incoming="_oXmugMrQEfC73LMk7LRVfA" outgoing="_dyHWgMrQEfC73LMk7LRVfA" inPartition="_fMlbUMrOEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4vAQMMrPEfC73LMk7LRVfA" name="Display Student Information Input Page" incoming="_Nk9ycMrQEfC73LMk7LRVfA" outgoing="_wM7sAMrQEfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7mASgMrPEfC73LMk7LRVfA" name="Select Register for Student Union" incoming="_dyHWgMrQEfC73LMk7LRVfA" outgoing="_Nk9ycMrQEfC73LMk7LRVfA" inPartition="_fMlbUMrOEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jAgG8MrQEfC73LMk7LRVfA" name="Input Student Information" incoming="_wM7sAMrQEfC73LMk7LRVfA" outgoing="_Q1TsYMrREfC73LMk7LRVfA" inPartition="_fMlbUMrOEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_5PU5kMrQEfC73LMk7LRVfA" name="Student Identifying Info" incoming="_Q1TsYMrREfC73LMk7LRVfA" outgoing="_UTpbgMrREfC73LMk7LRVfA">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_5PVgoMrQEfC73LMk7LRVfA" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_I2xIgMrREfC73LMk7LRVfA" name="Validate Student Status" incoming="_UTpbgMrREfC73LMk7LRVfA" outgoing="_nymHgMrREfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_iXUKkMrREfC73LMk7LRVfA" name="" incoming="_nymHgMrREfC73LMk7LRVfA" outgoing="_I0Z7kMrSEfC73LMk7LRVfA _2_xm4MrSEfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_87hpEMrREfC73LMk7LRVfA" name="Register to Student Union" incoming="_I0Z7kMrSEfC73LMk7LRVfA" outgoing="_W_b24MrSEfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_Uwt8kMrSEfC73LMk7LRVfA" name="" incoming="_W_b24MrSEfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_zJIFcMrSEfC73LMk7LRVfA" name="" incoming="_2_xm4MrSEfC73LMk7LRVfA" inPartition="_CgLEwMrPEfC73LMk7LRVfA"/>
+  </packagedElement>
+</uml:Model>
